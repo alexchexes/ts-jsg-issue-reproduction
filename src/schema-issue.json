@@ -46,16 +46,8 @@
       ],
       "type": "object"
     },
-    "SomeInterface": {
-      "additionalProperties": {
-        "anyOf": [
-          {
-            "type": "string"
-          },
-          {}
-        ]
-      },
-      "type": "object"
+    "MyType": {
+      "type": "string"
     }
   }
 }
